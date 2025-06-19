@@ -1,0 +1,17 @@
+.skills {
+  padding: 60px;
+  text-align: center;
+}
+.skills .highlight {
+  background: #ff5fa2;
+  color: #000;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.icon-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
