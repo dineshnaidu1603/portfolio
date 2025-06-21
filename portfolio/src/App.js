@@ -10,7 +10,10 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   return (
+
       <div className="App">
+          <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+
           <title>Dinesh Naidu's Portfolio</title>
 
 
