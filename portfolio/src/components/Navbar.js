@@ -11,7 +11,7 @@ function Navbar({ onNavClick }) {
         <li onClick={() => onNavClick('home')} style={{fontSize:'25px' }}><FaHome /> Home</li>
         <li onClick={() => onNavClick('about')} style={{fontSize:'25px' }}><FaUser /> About me</li>
         <li onClick={() => onNavClick('projects')} style={{fontSize:'25px' }}><FaProjectDiagram /> Projects </li>
-        <li onClick={() => onNavClick('contact')}style={{fontSize:'25x' }}><FaEnvelope /> Contact</li>
+        <li onClick={() => onNavClick('contact')}style={{fontSize:'25px' }}><FaEnvelope /> Contact</li>
       </ul>
     </nav>
   );

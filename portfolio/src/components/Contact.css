@@ -3,14 +3,14 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   padding: 3rem 2rem;
-  margin: 100px auto 0;
-  max-width: 900px;
+  max-width: 700px;
+  margin: 10px auto; /* centers horizontally and adds top spacing */
   border-radius: 20px;
   text-align: center;
   color: #ffffff;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
-      box-shadow: 10px 10px 10px rgb(246, 17, 215);
+      box-shadow: 8px 8px 20px rgb(246, 17, 215);
 
 }
 
@@ -21,28 +21,31 @@
 #contact h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #ffffff;
   font-weight: 700;
+  color: #ffffff;
 }
 
 #contact p {
   font-size: 1.1rem;
-  margin: 10px 0;
+  color: #f4f4f6;
+  margin: 12px 0;
   line-height: 1.6;
-  color: #e0e0e0;
 }
 
 #contact a {
-  color: #61dafb;
+  color: #f611d7;
   text-decoration: none;
-  font-weight: 500;
+  transition: color 0.3s;
+    font-size: 20px;
+
 }
 
 #contact a:hover {
+  color: #ffffff;
   text-decoration: underline;
 }
 
-#contact svg {
-  color: #6a11cb;
-  margin-bottom: 10px;
-}
+    #contact svg {
+      vertical-align: middle;
+      color: #f611d7;
+    }

@@ -5,7 +5,6 @@ import './Contact.css';
 function Contact() {
   return (
     <section id="contact" style={{ padding: '2rem', textAlign: 'center' }}>
-      <FaEnvelope size={30} />
       <h2>Contact Me</h2>
       <p>Email: <a href="mailto:dineshnaidunarni@gmail.com">dineshnaidunarni@gmail.com</a></p>
       <p>

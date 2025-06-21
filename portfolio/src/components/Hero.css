@@ -5,10 +5,10 @@
   color: #fff;
   padding: 80px 20px;                           /* consistent padding */
   text-align: center;
-  margin: 100px auto 60px auto;                 /* adds spacing from navbar */
+  margin: 150px auto 100px auto;                 /* adds spacing from navbar */
   border-radius: 20px;
     box-shadow: 5px 8px 30px rgb(246, 17, 215);
-  max-width: 960px;
+  max-width: 1000px;
   transition: transform 0.3s ease;
 }
 

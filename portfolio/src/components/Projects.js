@@ -5,19 +5,19 @@ function Projects() {
   const projects = [
     {
       title: 'Skin Cancer Detection',
-      description: 'A deep learning mobile app using ResNet18/34/50 with 94% accuracy on ISIC 2019.',
-      github: 'https://github.com/your-repo/skin-cancer',
+      description: 'A deep learning mobile app using ResNet18/34/50 with 91.8% accuracy on ISIC 2019.',
+      github: 'https://github.com/dineshnaidu1603/skin-cancer',
     },
+    // {
+    //   title: 'E-Commerce Recommender + RAG Bot',
+    //   description: 'Built with Django, product-based recommender and a shopping assistant bot.',
+    //   github: 'https://github.com/dineshnaidu1603/recommender-bot',
+    // },
     {
-      title: 'E-Commerce Recommender + RAG Bot',
-      description: 'Built with Django, product-based recommender and a shopping assistant bot.',
-      github: 'https://github.com/your-repo/recommender-bot',
-    },
-    {
-      title: 'Medicine Tracker App',
+     title: 'Medicine Tracker App',
       description: 'Java-based Android app to track tablets and log intake daily.',
-      github: 'https://github.com/your-repo/medicine-tracker',
-    },
+       github: 'https://github.com/dineshnaidu1603/medicine-tracker',
+     },
     {
       title: 'Competitive Programming Platform',
       description: 'A Web Application based platform contains various coding platforms.',
