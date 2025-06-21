@@ -1,17 +1,21 @@
 .navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  padding: 20px 20px 20px 20px;
-  position: fixed;
-  width: 96%;
-  z-index: 100;
+  padding: 15px;
+  border-radius: 20px;
+  /*box-shadow:  8px 30px rgba(0, 0, 0, 0.1);*/
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 20px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-  color: #fff;
+    box-shadow: 5px 8px 30px rgb(246, 17, 215);
+
 }
 
 .navbar h1 {

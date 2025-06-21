@@ -1,10 +1,21 @@
 .hero {
-  /*background: linear-gradient(to right, #4e54c8, #8f94fb);*/
-
-  color: white;
-  padding: 100px 20px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);                  /* consistent blur */
+  -webkit-backdrop-filter: blur(12px);
+  color: #fff;
+  padding: 80px 20px;                           /* consistent padding */
   text-align: center;
+  margin: 100px auto 60px auto;                 /* adds spacing from navbar */
+  border-radius: 20px;
+    box-shadow: 5px 8px 30px rgb(246, 17, 215);
+  max-width: 960px;
+  transition: transform 0.3s ease;
 }
+
+.hero:hover {
+  transform: scale(1.01);
+}
+
 .profile-img {
   width: 150px;
   height: 150px;
@@ -17,17 +28,16 @@
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 10px;
-
+  font-weight: 700;
 }
 
 .hero .role {
   font-size: 1.5rem;
   font-weight: 500;
-
 }
 
 .hero .tagline {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-top: 10px;
 }
 
@@ -39,7 +49,7 @@
   display: inline-block;
   padding: 10px 20px;
   margin: 0 10px;
-  border-radius: 8px;
+  border-radius: 12px;
   background-color: white;
   color: #4e54c8;
   font-weight: bold;

@@ -1,6 +1,6 @@
 
 body {
-  background: linear-gradient(135deg, #b4d6f4, #e6d0f3);
+  background: linear-gradient(135deg, #b4d6f4, #ffffff);
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 10px 10px 10px 10px;
@@ -38,4 +38,16 @@ a:hover {
   h2 {
     font-size: 1.5rem;
   }
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontal center */
+  padding-top: 90px;   /* To offset navbar height */
+  gap: 80px;
+   position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Space between sections */
 }

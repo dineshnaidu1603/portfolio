@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
-
+import './Contact.css';
+// Ensure you have the necessary icons installed
 function Contact() {
   return (
     <section id="contact" style={{ padding: '2rem', textAlign: 'center' }}>

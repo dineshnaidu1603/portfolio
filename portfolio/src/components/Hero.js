@@ -5,14 +5,22 @@ function Hero() {
   return (
     <section className="hero">
       {/*<img src={profile} alt="Profile" className="profile-img" />*/}
-      <div className="hero-content">
-        <h1>Venkata Dinesh Naidu Narni</h1>
-        <p className="role"> VI Year B.Tech | AIML Student</p>
-        <p className="tagline">Aspiring Full-Stack Developer & ML Enthusiast</p>
-        <div className="hero-buttons">
-  <a href="/dineshnaidu_resume.pdf" target="_blank" rel="noopener noreferrer" className="btn outline">View Resume</a>
+        <div className="hero-content">
+            <h1>Venkata Dinesh Naidu Narni</h1>
+            <p className="role"> VI Year B.Tech | AIML Student</p>
+            <p className="tagline">Aspiring Full-Stack Developer & ML Enthusiast</p>
+            <a
+                href={`${process.env.PUBLIC_URL}/dineshnaidu_resume.pdf`}
+                className="btn outline"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Resume
+            </a>
+            <p>I love software development, cloud computing, backend development and android app development.
+          I know a little bit of machine learning and NLP too !
+          Want to discuss regarding any project or just want to say a Hi? I am always available to listen you :)</p>
         </div>
-      </div>
     </section>
   );
 }

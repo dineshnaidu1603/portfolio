@@ -11,43 +11,45 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   return (
-    <div className="App">
-        <Back/>
-      <Navbar onNavClick={setActiveSection} />
+      <div className="App">
+          <title>Dinesh Naidu's Portfolio</title>
 
-      {/* Sections conditionally rendered based on activeSection */}
-      {activeSection === 'home' && (
-        <section id="home">
-          <Hero />
-        </section>
-      )}
 
-      {activeSection === 'about' && (
-        <section id="about">
-          <About />
-        </section>
-      )}
+          <Back/>
+          <Navbar onNavClick={setActiveSection}/>
 
-      {activeSection === 'projects' && (
-        <section id="projects">
-          <Projects />
-        </section>
-      )}
+          <div className="main-container">
 
-      {activeSection === 'contact' && (
-        <section id="contact">
-          <Contact />
-        </section>
-      )}
-    </div>
+              {/* Sections conditionally rendered based on activeSection */}
+              {activeSection === 'home' && (
+                  <section id="home">
+                      <Hero/>
+                  </section>
+              )}
+
+              {activeSection === 'about' && (
+                  <section id="about">
+                      <Skills/>
+                  </section>
+              )}
+
+              {activeSection === 'projects' && (
+                  <section id="projects">
+                      <Projects/>
+                  </section>
+              )}
+
+              {activeSection === 'contact' && (
+                  <section id="contact">
+                      <Contact/>
+                  </section>
+              )}
+          </div>
+
+      </div>
+
   );
 }
-
-    <footer style={{textAlign: 'center', padding: '1rem', background: '#f4f4f6', color: 'white'}}>
-        © {new Date().getFullYear()} Dinesh Naidu | All rights reserved
-    </footer>
-
-
 
 
 export default App;

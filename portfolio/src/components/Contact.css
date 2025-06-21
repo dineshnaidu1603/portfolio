@@ -1,0 +1,48 @@
+#contact {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 3rem 2rem;
+  margin: 100px auto 0;
+  max-width: 900px;
+  border-radius: 20px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+      box-shadow: 10px 10px 10px rgb(246, 17, 215);
+
+}
+
+#contact:hover {
+  transform: scale(1.015);
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+#contact a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+#contact svg {
+  color: #6a11cb;
+  margin-bottom: 10px;
+}
